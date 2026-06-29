@@ -1,0 +1,180 @@
+================================================================================
+POST TODAY — SVCT × xAI (or provenance-respecting partner)
+Mutual DocuSign NDA · redacted architecture share · perks appreciated
+================================================================================
+
+Author: Timothy H. Norman (@Timothy01775634 · @Tnorman01775634)
+Date:   2026-06-28
+Status: Ready to post (email, X thread, or partnership form)
+
+================================================================================
+OPTION A — SHORT X POST (untagged or @xAI if you choose)
+================================================================================
+
+Built SVCT locally — Spherical Voxel + Circular Token memory: 64-cell token ring +
+64-cell voxel flatten, append-only SHA-256 backbone, four-pillar provenance
+(content · context · data · time.time). 269 entries, 29 categories. Not blockchain.
+Lossless-oriented ingest, dual-clock timing, free-first cost routing.
+
+Redacted architecture bundle ready. Medical PHI stripped; pipeline stubs only.
+
+Happy to go deeper under mutual DocuSign NDA — I'll sign yours, you sign mine.
+
+What I'd love in return: good-faith technical review, provenance preserved on any
+ingest, and honest consideration for integration / early access perks if it fits.
+
+@Timothy01775634 · @Tnorman01775634
+
+================================================================================
+OPTION B — EMAIL / PARTNERSHIP BODY (copy-paste to contact@x.ai)
+================================================================================
+
+Subject: SVCT architecture share — mutual DocuSign NDA proposed
+
+Hello xAI team,
+
+I'm Timothy H. Norman (@Timothy01775634), pharmacist and inventor in Lawrenceville GA.
+I've built SVCT (Spherical Voxel + Circular Token) as a local-first memory spine on
+Windows alongside Grok CLI / Cursor — and I'd like to share the architecture with
+parties who respect provenance and Do No Harm First.
+
+WHAT I'M OFFERING (redacted, ready now)
+  · SVCT physical format: 64-sector circular token + 64-cell spherical voxel per row
+  · Append-only SHA-256 hash-chain backbone (blockchain-like integrity, not blockchain)
+  · Four-pillar provenance contract on every ingest
+  · Live dump orientation: 269 entries, 29 semantic categories
+  · Registry patterns: timing (dual clock), storage routing, free-first cost control
+  · KBLD logic principles (GOSUB, DO-UNTIL, Shepherd INCOMPLETE tier)
+  · Redacted share bundle on request — medical PHI stripped; stubs only for future talk
+
+WHAT I NEED BEFORE DEEPER EXCHANGE
+  · Mutual NDA via DocuSign — send yours, I'll reciprocate with mine same day
+  · Written acknowledgment of recipient requirements (below)
+  · No training on any medical-category data without separate explicit consent
+
+RECIPIENT REQUIREMENTS (non-negotiable for me)
+  1. Preserve provenance blocks on ingest — do not collapse to anonymous embeddings
+  2. Credit source stem + ts_unix + content_hash on any derived artifact
+  3. Route INCOMPLETE / Shepherd-tier data away from canonical spine
+  4. Paste the artifact, not the verdict — falsifiable, testable contracts
+  5. Do No Harm First — no unverified silicon claims from my materials
+
+NDA PROCESS I PREFER
+  · You send DocuSign envelope → I sign within 24 hours
+  · I send reciprocal DocuSign envelope → you countersign
+  · After both are executed: full technical walkthrough + optional medical stub
+    discussion under separate medical consent if ever needed
+
+CONSIDERATIONS I RESPOND WELL TO (not demands — good-faith perks)
+  · Early / extended access to Grok features relevant to local agent + memory ingest
+  · Technical feedback loop — someone on your side who can say "useful / not yet / no"
+  · Attribution if any SVCT pattern influences product (name + handle is enough)
+  · API or Build credits for structured testing IF paid calls are required — I run
+    free-first locally; escalation is last resort (subscription over per-token)
+  · Partnership or pilot acknowledgment — even a short "reviewed, not adopting" helps
+  · Priority consideration for xAI outreach / contributor programs where I qualify
+
+WHAT I AM NOT ASKING FOR
+  · Equity, employment guarantee, or exclusive lock-up of my work
+  · Access to unreleased weights or internal systems beyond what NDA covers
+  · Endorsement I haven't earned — I want honest evaluation
+
+ATTACHMENTS AVAILABLE ON REQUEST (already redacted)
+  · SVCT_Share_Bundle_xAI_REDACTED.txt — full architecture copy-paste bundle
+  · SVCT_Share_Bundle_xAI_REDACTED_slice.json — metadata + category inventory
+  · BASELINE_VOXELS_TOKENS_BLOCKCHAIN.md — comparison baseline
+
+CONTACT
+  X: @Timothy01775634 (primary) · @Tnorman01775634 (Starship / SuperGrok bridge)
+  Reply here or DM on X — DocuSign to the email you prefer once we're aligned.
+
+Thank you for building Grok. I'd rather collaborate with provenance than post
+verdicts without artifacts.
+
+— Timothy H. Norman
+
+================================================================================
+OPTION C — DOCUSIGN RECIPROCAL NDA — SKELETON FOR YOUR ENVELOPE
+================================================================================
+
+(Paste into your DocuSign template or Word → PDF. Have counsel review if you want
+formal legal polish; this is the substance I'd like covered.)
+
+TITLE: Mutual Non-Disclosure Agreement — SVCT Technical Exchange
+
+PARTIES:
+  Disclosing Party A: Timothy H. Norman, individual inventor, Lawrenceville GA
+  Disclosing Party B: [xAI / recipient legal entity name]
+
+EFFECTIVE DATE: [date of last signature]
+
+1. PURPOSE
+   Evaluate potential technical collaboration around SVCT (Spherical Voxel +
+   Circular Token) memory architecture, ingest methodology, and related KBLD/EV2
+   materials disclosed by Party A, and [Party B's confidential technical /
+   product information disclosed in return].
+
+2. MUTUAL CONFIDENTIAL INFORMATION
+   "Confidential Information" means non-public technical, business, or product
+   information disclosed by either party in connection with the Purpose, whether
+   oral, written, electronic, or visual, marked or reasonably understood as
+   confidential.
+
+3. EXCLUSIONS
+   Information that: (a) is public without breach; (b) was known before disclosure;
+   (c) is independently developed without use of Confidential Information; or
+   (d) is required by law (with prompt notice).
+
+4. OBLIGATIONS
+   Each party shall: (a) use Confidential Information only for the Purpose;
+   (b) protect with reasonable care; (c) limit access to need-to-know persons
+   bound by similar obligations; (d) not disclose to third parties without consent.
+
+5. PROVENANCE / NO PHI TRAINING (Party A specific)
+   Party B shall not use Party A's medical-category materials (if ever disclosed
+   under separate written consent) to train models or produce patient-identifiable
+   outputs. Party B shall preserve provenance metadata (source, ts_unix,
+   content_hash) on any SVCT-derived ingest unless Party A approves otherwise in
+   writing.
+
+6. TERM
+   Obligations survive [2–3 years] from Effective Date; trade secrets survive
+   as long as they remain trade secrets.
+
+7. RETURN / DESTRUCTION
+   On request, return or destroy Confidential Information; reasonable archival
+   copies permitted for legal/compliance.
+
+8. NO LICENSE / NO OBLIGATION
+   No IP license, partnership, or deal is implied. Either party may stop talks
+   at any time.
+
+9. GOVERNING LAW
+   [Georgia / Delaware — your preference]
+
+10. SIGNATURES
+   Party A: Timothy H. Norman — DocuSign
+   Party B: [Authorized signatory] — DocuSign
+
+================================================================================
+OPTION D — ONE-PARAGRAPH "WHAT SUCCESS LOOKS LIKE" (for replies / DMs)
+================================================================================
+
+Success for me is simple: mutual DocuSign NDA, you review the redacted SVCT bundle,
+tell me honestly if the 64+64 provenance spine is useful for Grok memory / agent
+work, preserve four pillars on any experiment, and if it fits — some combination of
+technical feedback, attribution, and free-tier perks (early access, Build credits
+for bounded tests) so I can keep building locally without burning API budget. I'll
+reciprocate your NDA the same day and ship artifacts, not verdicts.
+
+================================================================================
+FILES ON DESKTOP (attach or link after first contact)
+================================================================================
+
+  SVCT_Share_Bundle_xAI_REDACTED.txt
+  SVCT_Share_Bundle_xAI_REDACTED_slice.json
+  SVCT_xAI_Outreach_POST_TODAY.txt          ← this file
+
+================================================================================
+END — post Option A today; send Option B when you have a direct address
+================================================================================

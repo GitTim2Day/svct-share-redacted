@@ -1,0 +1,124 @@
+{
+  "schema": "svct_share_bundle_redacted_slice_v1",
+  "generated_at": "2026-06-28T19:07:15.684878-04:00",
+  "bundle_txt": "docs/SVCT_Share_Bundle_xAI_REDACTED.txt",
+  "dump_stats": {
+    "total_entries": 269,
+    "distinct_categories": 29,
+    "exported_at": "2026-06-28T17:52:20.579218-04:00"
+  },
+  "categories": {
+    "Archive_Cold_Store_SVCT": 1,
+    "Audio_Archive_SVCT": 2,
+    "Contributions_Outreach_xAI_Musk_Starship": 1,
+    "Contributions_xAI": 1,
+    "Contributions_xAI_Ethics": 1,
+    "Contributions_xAI_SuperGrok": 25,
+    "Contributions_xAI_Vision": 1,
+    "Culture_Heritage": 1,
+    "Earth_Environmental_Sensor": 10,
+    "FSD_Autonomous_Navigation": 2,
+    "FSD_Autonomous_Navigation_Drone_SPACESHIP": 8,
+    "FSD_Starship_Optimus": 1,
+    "Finance_Market_Sensor": 2,
+    "KBLD_EV2": 1,
+    "KBLD_EV2_Edge_Autonomy": 1,
+    "KBLD_EV2_Lattice_Physics_TVH": 7,
+    "KBLD_EV2_Physics": 1,
+    "KBLD_EV2_Physics_Philosophy": 1,
+    "KBLD_Time_Precision": 3,
+    "Language_Lexicon": 1,
+    "Multimodal_Optimus": 1,
+    "Multimodal_Voice_Image_Sensor": 3,
+    "Neuralink_Brain_Medical_CT_DICOM": 5,
+    "Photo_Archive_SVCT": 15,
+    "Scanned_Notes": 17,
+    "Sports_Analytics": 2,
+    "Story_Archive_SVCT": 29,
+    "TVH_EV2_Lattice": 1,
+    "Video_Archive_SVCT": 125
+  },
+  "medical_category_stub": {
+    "category": "Neuralink_Brain_Medical_CT_DICOM",
+    "entry_count": 5,
+    "status": "REDACTED_STUB",
+    "note": "PHI withheld. Pipeline exists for future NDA discussion.",
+    "stub_types": [
+      {
+        "id": "STUB-1",
+        "action": "ingest_to_voxel_memory",
+        "modality": "appointment_confirmation"
+      },
+      {
+        "id": "STUB-2",
+        "action": "medical_lab_extract_ingest",
+        "modality": "lab_report_ocr_structured"
+      },
+      {
+        "id": "STUB-3",
+        "action": "iphone_postpull_ingest",
+        "modality": "phone_usb_pull"
+      },
+      {
+        "id": "STUB-4",
+        "action": "iphone_postpull_ingest",
+        "modality": "appointment_image"
+      },
+      {
+        "id": "STUB-5",
+        "action": "photo_svct_poc_ingest",
+        "modality": "photo_sha256_thumb_metadata"
+      }
+    ],
+    "pipeline_tools": [
+      "medical_lab_extract.py",
+      "medical-lab-vault skill",
+      "taxonomy T064 labcorp_results"
+    ],
+    "withheld": [
+      "patient_name",
+      "specimen_id",
+      "confirmation_number",
+      "analytes",
+      "ocr_text",
+      "phone",
+      "email",
+      "raw_images"
+    ]
+  },
+  "sample_non_phi_entries": [
+    {
+      "id": 1739,
+      "seq": 23,
+      "ts_unix": 1782597605.0,
+      "category": "Contributions_xAI_Ethics",
+      "source": "Streamlined_Drives/Contributions_Outreach_xAI_Musk_Starship/ethics_signoff_grok_power_package_2025_Version2.md",
+      "preview": ".# Grok Power-User Package – Ethics & Alignment Sign-Off",
+      "content_hash": "03ce64d3aa414c2a"
+    },
+    {
+      "id": 1742,
+      "seq": 29,
+      "ts_unix": 1782597605.0,
+      "category": "KBLD_EV2_Lattice_Physics_TVH",
+      "source": "Desktop/KBLD_EV2_Lattice_Physics_TVH/IMG_8359_processed.txt + phone screenshot 2026-06-23",
+      "preview": "sph.rical ctm interface contract. Resolved: REJECT vs IN",
+      "content_hash": "c55a1ecac39f3882",
+      "provenance_action": "ingest_to_voxel_memory"
+    }
+  ],
+  "physical_format": {
+    "token_vector_cells": 64,
+    "voxel_cells": 64,
+    "note": "All entries use canonical 64-cell SphericalVoxel + 64-sector circular token"
+  },
+  "recipient_requirements": [
+    "Preserve provenance blocks on ingest",
+    "Credit source stem + ts_unix + content_hash",
+    "INCOMPLETE/Shepherd tier away from canonical spine",
+    "Paste the artifact, not the verdict",
+    "No training on medical PHI without separate consent"
+  ],
+  "nda_preferred": true,
+  "github_repo": "https://github.com/GitTim2Day/svct-share-redacted"
+}

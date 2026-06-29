@@ -1,0 +1,351 @@
+================================================================================
+SVCT SHARE BUNDLE — xAI / PROVENANCE-RESPECTING PARTIES
+REDACTED EDITION (medical PHI stripped; stubs retained for future consideration)
+================================================================================
+
+Author:     Timothy H. Norman — Pharmacist, Innovator, Lawrenceville GA
+Handles:    @Timothy01775634 (primary: KBLD / EV2 / ethics / xAI outreach)
+            @Tnorman01775634 (Starship / SPACESHIP / SuperGrok iPhone bridge)
+Generated:  2026-06-28
+Bundle:     C:\Users\name\Desktop\SVCT_Share_Bundle_xAI_REDACTED.txt
+Witness:    svct_share_provenance_witness.json (KBLD_EV2_Lattice_Physics_TVH)
+
+NDA:        Recipient may sign an NDA at any time — author prefers that path
+            before deeper technical exchange or any medical-category expansion.
+
+Delivery:   User will review this bundle, then forward to contact@x.ai or post
+            untagged on X. This file does not auto-publish.
+
+================================================================================
+1. COVER LETTER (copy-paste body)
+================================================================================
+
+Subject: SVCT — Spherical Voxel + Circular Token memory architecture (redacted share)
+
+To xAI / provenance-respecting engineering partners,
+
+I am sharing a redacted overview of SVCT (Spherical Voxel + Circular Token),
+a local-first memory spine I have built on Windows alongside Grok CLI / Cursor.
+This bundle contains architecture, methodology, registry patterns, and a
+category inventory from a live 269-entry dump. Medical PHI has been stripped;
+only pipeline stubs remain so we can discuss integration later under NDA.
+
+SVCT is not a blockchain. It is an append-only SHA-256 hash-chain backbone with
+64-cell token_vector + 64-cell voxel_cells per memory row, four-pillar
+provenance (content · context · data · time.time), and BASIC-style logic
+principles (GOSUB, DO-UNTIL, IF-THEN-ELSE) wired through ingest and spine gates.
+
+I welcome NDA before any deeper exchange. I retain rights; recipients must
+honor provenance chains and Do No Harm First (no training on medical PHI without
+separate explicit consent).
+
+Attribution: @Timothy01775634 · @Tnorman01775634
+
+— Timothy H. Norman
+
+================================================================================
+2. ONE-LINER + FOUR PILLARS
+================================================================================
+
+One-liner:
+  SVCT = lossless-oriented local memory where every row is a 64-sector circular
+  token ring + 64-cell spherical voxel flatten, chained on an append-only
+  SHA-256 backbone, with causal ordering on time.time (spine) and monotonic
+  quartz (control) clocks.
+
+Four pillars (svct_memory_pillars.py — svct_memory_pillars_v1):
+  content  — payload identity: content_hash, preview, text_len, modality
+  context  — semantic bucket: category, name, action, source stem, tags
+  data     — structured refs: seq, order_key, store keys, cross-links
+  time     — ts_unix (causal spine) + ISO UTC timestamp
+
+Rules (non-negotiable):
+  · Do No Harm First — no unverified claims on silicon
+  · Data doesn't debate — falsifiable predictions
+  · Paste the artifact, not the verdict
+  · INCOMPLETE / Shepherd tier for degraded data — never pollute canonical spine
+
+================================================================================
+3. PHYSICAL FORMAT (every SQLite memory_entries row)
+================================================================================
+
+  token_vector   64 floats — circular ring committed to backbone
+  voxel_cells    64 floats — spherical flatten (56 payload + 8 reserve policy)
+  category       semantic bucket (29 distinct in current dump)
+  source         provenance string (file path or ingest stem)
+  order_key      radial time sort from spine clock
+  content_hash   dedup fingerprint
+  preview        ~80 chars decoded or LIB-marked
+  provenance     JSON block with action, tool, pillars, optional tim_table_snap
+
+Backbone (blockchain-like, NOT blockchain):
+  spherical_voxel_circular_token_backbone.jsonl — append-only SHA-256 chain
+  read-back verify before checkpoint advances
+
+Parallel backbones:
+  text_codec_word_library_backbone.jsonl  (lossless text chains)
+  linguistic_text_backbone.jsonl          (philosophy/ethics/jargon)
+
+Current dump stats (exported 2026-06-28):
+  total_entries:      269
+  distinct_categories: 29
+  source_db: spherical_voxel_circular_token_memory.db
+
+================================================================================
+4. CATEGORY INVENTORY (269 entries / 29 categories)
+================================================================================
+
+Archive_Cold_Store_SVCT                      1
+Audio_Archive_SVCT                           2
+Contributions_Outreach_xAI_Musk_Starship     1
+Contributions_xAI                            1
+Contributions_xAI_Ethics                     1
+Contributions_xAI_SuperGrok                 25
+Contributions_xAI_Vision                     1
+Culture_Heritage                             1
+Earth_Environmental_Sensor                  10
+FSD_Autonomous_Navigation                    2
+FSD_Autonomous_Navigation_Drone_SPACESHIP    8
+FSD_Starship_Optimus                         1
+Finance_Market_Sensor                        2
+KBLD_EV2                                     1
+KBLD_EV2_Edge_Autonomy                       1
+KBLD_EV2_Lattice_Physics_TVH                 7
+KBLD_EV2_Physics                             1
+KBLD_EV2_Physics_Philosophy                  1
+KBLD_Time_Precision                          3
+Language_Lexicon                             1
+Multimodal_Optimus                           1
+Multimodal_Voice_Image_Sensor                3
+Neuralink_Brain_Medical_CT_DICOM             5   ← STUB ONLY (see §5)
+Photo_Archive_SVCT                          15
+Scanned_Notes                               17
+Sports_Analytics                             2
+Story_Archive_SVCT                          29
+TVH_EV2_Lattice                              1
+Video_Archive_SVCT                         125
+
+Handle bias (orientation):
+  @Timothy01775634 — KBLD, EV2/TVH, ethics, Tim's Table, xAI contributions
+  @Tnorman01775634 — FSD/SPACESHIP, Starship, SuperGrok iPhone bridge
+
+================================================================================
+5. MEDICAL CATEGORY — REDACTED STUB (future consideration under NDA)
+================================================================================
+
+Category: Neuralink_Brain_Medical_CT_DICOM
+Entry count in live dump: 5
+Status:   REDACTED — no PHI in this bundle
+
+What exists locally (NOT included here):
+  · Lab report image ingest pipeline (OCR → structured store → SVCT ingest)
+  · Appointment vs results guard (appointment rows ≠ analyte results)
+  · medical_lab_extract.py — extract / ingest / all subcommands
+  · Taxonomy tag: labcorp_results (T064)
+  · Skill: medical-lab-vault (Rex MD Fortress orientation)
+
+Stub entry types (descriptions only — no identifiers):
+  [STUB-1] appointment_ingest
+    action: ingest_to_voxel_memory
+    modality: appointment confirmation (not lab results)
+    source class: Medical_Lab_Blood_Work/appointment_*.txt + companion JPG
+    redacted: patient name, DOB, phone, email, subscriber ID, facility address
+
+  [STUB-2] lab_results_ingest
+    action: medical_lab_extract_ingest
+    modality: LabCorp-style blood work report (multi-page OCR)
+    pipeline: OCR text → canonical analyte rows → CSV + SQLite → SVCT row
+    redacted: patient name, specimen ID, confirmation number, all analyte
+              values/flags/units/ref ranges, raw OCR text, report preview
+
+  [STUB-3] phone_media_ingest (medical vault path)
+    action: iphone_postpull_ingest
+    modality: Camera Roll → USB pull → postpull ingest
+    redacted: filesystem paths with username, image filenames linked to PHI
+
+  [STUB-4] phone_media_ingest (companion appointment image)
+    action: iphone_postpull_ingest
+    redacted: same as STUB-3
+
+  [STUB-5] photo_svct sidecar (same report image filename)
+    action: photo_svct_poc_ingest
+    note: Photo_Archive_SVCT may hold sha256/thumb metadata for the same
+          filename; no patient fields in photo_meta — filename redacted here
+    redacted: gallery_id, thumb path, sha256 (withhold to prevent cross-link)
+
+Explicitly NOT in this bundle:
+  · lab_analytes_*.csv
+  · medical_lab_results.db
+  · Unredacted report images (IMG_8397, IMG_8370, etc.)
+  · Any subscriber ID, specimen ID, confirmation number, phone, email
+
+Future consideration:
+  Under NDA, discuss medical_lab_extract schema, appointment/results guard,
+  and SVCT ingest with four pillars — PHI stays in local vault only unless
+  separate explicit medical consent.
+
+================================================================================
+6. SAMPLE NON-PHI PROVENANCE BLOCK (KBLD_EV2_Lattice_Physics_TVH)
+================================================================================
+
+This is metadata only — no token_vector / voxel_cells (64 floats each).
+
+{
+  "id": "[sample]",
+  "seq": "[sample]",
+  "ts_unix": 1782679205.912574,
+  "category": "KBLD_EV2_Lattice_Physics_TVH",
+  "source": "Desktop/KBLD_EV2_Lattice_Physics_TVH/IMG_8359_processed.txt + phone screenshot 2026-06-23",
+  "preview": "spherical ctm interface contract. Resolved: REJECT vs INCOMPLETE tier...",
+  "content_hash": "c55a1ecac39f3882",
+  "provenance": {
+    "action": "ingest_to_voxel_memory",
+    "tool": "build_spherical_voxel_circular_token_memory.py + KBLD rungs (TextCodec+WordLibrary)",
+    "ts": "2026-06-27T22:00:05.912574+00:00",
+    "tim_table_snap": {
+      "pairing": "TimTable coarse QUANTIZE → KBLD 61-shell fine",
+      "accept_rate": 1.0,
+      "original": [9.0, 5, 1100],
+      "coarse_snapped": [10.0, 5.235987755982989, 100.0],
+      "fine_snapped": [0.5, 0.0, 0.0],
+      "ram_voxel_snap": {
+        "lock": 6,
+        "fidelity": "original + exact snapped on grid; reconstructible. No loss.",
+        "voxel_count": 7,
+        "token_count": 1
+      }
+    },
+    "pillars": {
+      "content": { "content_hash": "c55a1ecac39f3882", "preview": "[truncated]" },
+      "context": { "category": "KBLD_EV2_Lattice_Physics_TVH", "name": "IMG_8359_ctm_contract" },
+      "data": { "seq": "[sample]", "order_key": 1782679205.912574 },
+      "time": { "ts_unix": 1782679205.912574, "ts": "2026-06-27T22:00:05.912574+00:00" }
+    }
+  }
+}
+
+================================================================================
+7. SVCT vs BLOCKCHAIN (efficiency orientation)
+================================================================================
+
+  Blockchain typical:  global consensus, miner/validator cost, block time latency,
+                         immutable ledger optimized for trust between strangers.
+
+  SVCT spine:            single-operator local append-only hash chain;
+                         verify-on-read before checkpoint; no mining;
+                         64-cell rows optimized for recall + provenance witness,
+                         not currency or smart-contract execution.
+
+  Efficiency hooks:
+  · content_hash dedup before append
+  · large_bypass for X>50000 codepoint payloads
+  · TextCodec + WordLibraryCodec (LIB_MARK lossless) for text
+  · numeric_hints → Tim's Table snap → cell fill
+  · sameness hierarchy (header/stub/true_dupe/unique) on prefilter
+  · free-first cost routing before paid API (see §8)
+
+================================================================================
+8. REGISTRY PATTERN (appendable CSV + GOSUB + JSONL witness)
+================================================================================
+
+Timing (timing_sync_matrix.csv + timing_registry.py):
+  · Dual clock: spine = time.time_ns / GNSS; control = monotonic / quartz
+  · Situations: edge_laptop_default, drone_field_gnss, sensor_sweep_32fps,
+    reflex_100hz, coherence_2p08hz, usb_vault_sync, periodic_api_harden
+  · Shepherd frame drop: INCOMPLETE witness on degraded frames (6/100 gate)
+
+Storage (storage_backend_matrix.csv + storage_registry.py):
+  · Route by ext/mime: jpeg→vault+thumb, mp4→video archive, DICOM→medical vault,
+    jsonl→backbone, csv→registry, db→sqlite query layer
+
+Cost (cost_route_matrix.csv + cost_registry.py):
+  · Free-first: local files → SVCT build → /imagine (subscription) → API last
+  · local_agent_hub.json — check hub BEFORE any --escalate paid path
+
+Local agent hub (active):
+  · Grok CLI: C:\Users\name\.grok\bin\grok.exe v0.2.67
+  · Workspace: C:\Users\name (Cursor/Grok Build session)
+  · Edge vault: E:\SVCT_Edge_Vault (USB portable mirror)
+
+================================================================================
+9. RECIPIENT REQUIREMENTS (from svct_share_provenance_witness.json)
+================================================================================
+
+Shareable without further redaction:
+  · SVCT physical format (64+64 cells)
+  · Append-only hash-chain backbone design
+  · Four-pillar provenance contract
+  · Registry pattern (timing, storage, cost routing)
+  · Tim's Table + KBLD logic principles (non-PHI)
+  · BASELINE_VOXELS_TOKENS_BLOCKCHAIN.md
+  · Skills methodology (pattern-match-map-duplicate-archive)
+  · Public X posts already attributed
+
+NOT shareable without redaction (withheld from this bundle):
+  · LabCorp / medical vault rows with PHI
+  · lab_analytes CSV with patient identifiers
+  · medical_lab_results.db
+  · Unredacted medical images
+  · Personal email, phone, subscriber IDs from lab OCR
+
+Recipient MUST:
+  1. Preserve provenance blocks on ingest; do not collapse to anonymous embeddings
+  2. Credit source stem + ts_unix + content_hash
+  3. Route INCOMPLETE / Shepherd-tier data away from canonical spine
+  4. Paste the artifact, not the verdict
+  5. No training on medical PHI without explicit separate consent
+
+Consent statement (witness):
+  "SVCT architecture, methodology, and non-PHI artifacts may be shared with xAI
+   or any party that respects provenance, four pillars, and Do No Harm First."
+
+================================================================================
+10. CODE ENTRYPOINTS (local paths on author's machine)
+================================================================================
+
+Core build / memory:
+  build_spherical_voxel_circular_token_memory.py
+  circular_token_core.py
+  svct_memory_pillars.py
+  svct_taxonomy.py
+  install_svct_kbld.py
+  gosub_harden_and_build.py
+
+Registries:
+  timing_registry.py
+  storage_registry.py
+  cost_registry.py
+
+Medical (stub reference only — PHI local):
+  medical_lab_extract.py
+
+Spine gates:
+  svct_spine_gates.py  (Shepherd frame drop, harden-and-build)
+
+Hub / witness:
+  Streamlined_Drives/KBLD_EV2_Lattice_Physics_TVH/local_agent_hub.json
+  Streamlined_Drives/KBLD_EV2_Lattice_Physics_TVH/svct_share_provenance_witness.json
+
+Documentation:
+  Streamlined_Drives/KBLD_EV2_Lattice_Physics_TVH/BASELINE_VOXELS_TOKENS_BLOCKCHAIN.md
+  .grok/skills/spherical-voxel-circular-token-memory/SKILL.md
+
+Demo dump (full vectors on disk; medical redacted in this bundle):
+  Streamlined_Drives/KBLD_EV2_Lattice_Physics_TVH/spherical_voxel_circular_token_memory_dump.json
+
+Companion redacted JSON slice (metadata only):
+  Desktop/SVCT_Share_Bundle_xAI_REDACTED_slice.json
+
+================================================================================
+11. CONTACT / FORWARDING
+================================================================================
+
+Preferred:  NDA first, then technical deep-dive
+X:          @Timothy01775634 · @Tnorman01775634
+xAI path:   contact@x.ai (user forwards after review)
+Alt:        User may post untagged on X for public architecture discussion;
+            medical stubs remain closed until NDA.
+
+================================================================================
+END OF BUNDLE — REDACTED EDITION
+================================================================================

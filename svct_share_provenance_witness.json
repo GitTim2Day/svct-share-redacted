@@ -1,0 +1,60 @@
+{
+  "schema": "svct_share_provenance_witness_v1",
+  "recorded_at": "2026-06-28T19:00:00-04:00",
+  "author": "Timothy H. Norman",
+  "handles": {
+    "primary": "@Timothy01775634",
+    "starship_supergrok": "@Tnorman01775634"
+  },
+  "consent": "SVCT architecture, methodology, and non-PHI artifacts may be shared with xAI or any party that respects provenance, four pillars (content · context · data · time.time), and Do No Harm First.",
+  "shareable": [
+    "SVCT physical format (64-cell token_vector + voxel_cells)",
+    "Append-only hash-chain backbone design",
+    "Four-pillar provenance contract",
+    "Registry pattern (timing, storage, cost routing)",
+    "Tim's Table + KBLD logic principles (non-PHI)",
+    "BASELINE_VOXELS_TOKENS_BLOCKCHAIN.md",
+    "Skills methodology (pattern-match-map-duplicate-archive)",
+    "Public X posts and outreach already attributed"
+  ],
+  "not_shareable_without_redaction": [
+    "LabCorp / medical vault rows (PHI)",
+    "lab_analytes CSV with patient identifiers",
+    "medical_lab_results.db",
+    "Unredacted IMG_8397 medical images",
+    "Personal email, phone, subscriber IDs from lab OCR"
+  ],
+  "recipient_requirements": [
+    "Preserve provenance blocks on ingest; do not collapse into anonymous embeddings",
+    "Credit source stem + ts_unix + content_hash",
+    "INCOMPLETE / Shepherd tier for degraded data — never pollute canonical spine",
+    "Paste the artifact, not the verdict",
+    "No training on medical PHI without explicit separate consent"
+  ],
+  "suggested_share_bundle": {
+    "docs": [
+      "Streamlined_Drives/KBLD_EV2_Lattice_Physics_TVH/BASELINE_VOXELS_TOKENS_BLOCKCHAIN.md",
+      ".grok/skills/spherical-voxel-circular-token-memory/references/DATA_ORIENTATION_SVCT.csv"
+    ],
+    "code_entrypoints": [
+      "build_spherical_voxel_circular_token_memory.py",
+      "circular_token_core.py",
+      "svct_memory_pillars.py",
+      "svct_taxonomy.py",
+      "local_agent_hub.json"
+    ],
+    "demo_dump": "spherical_voxel_circular_token_memory_dump.json (category counts + format; redact medical category if needed)"
+  },
+  "contact_path": "contact@x.ai with @Timothy01775634 attribution; or xAI partnership channels user selects",
+  "nda_preferred": true,
+  "nda_process": "mutual DocuSign — user signs recipient envelope within 24h and reciprocates with own envelope",
+  "outreach_post_today": "docs/SVCT_xAI_Outreach_POST_TODAY.txt",
+  "bundle_artifacts": {
+    "generated_at": "2026-06-28T19:30:00-04:00",
+    "copy_paste_txt": "docs/SVCT_Share_Bundle_xAI_REDACTED.txt",
+    "redacted_slice_json": "SVCT_Share_Bundle_xAI_REDACTED_slice.json",
+    "medical_handling": "stripped/redacted; category stub retained for future NDA consideration"
+  },
+  "note": "Witness only — does not auto-publish. User retains rights; recipients must honor provenance chain.",
+  "github_repo": "https://github.com/GitTim2Day/svct-share-redacted"
+}
