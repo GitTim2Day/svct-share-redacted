@@ -1,0 +1,146 @@
+================================================================================
+GROK SKILLS CATALOG — POST TO X + GROK
+@Timothy01775634 (KBLD · SVCT · xAI) · @Tnorman01775634 (Starship · SuperGrok bridge)
+Local: C:\Users\name\.grok\skills\  |  Repo: github.com/GitTim2Day/svct-share-redacted
+================================================================================
+
+NOTE: I cannot post to X/Grok for you. Copy sections below. Skills auto-load in Grok CLI/Cursor on this laptop.
+
+================================================================================
+SECTION A — X MAIN POST (copy this first)
+================================================================================
+
+My Grok Build skill stack (Windows local agent) — paste the artifact, not the verdict.
+
+SVCT memory spine + thread folds + bridges. All at C:\Users\name\.grok\skills on my laptop; public architecture:
+
+https://github.com/GitTim2Day/svct-share-redacted
+
+@Timothy01775634 · @Tnorman01775634
+
+================================================================================
+SECTION B — X THREAD (reply to yourself, one tweet per block OK)
+================================================================================
+
+--- B1 CORE SVCT (memory + spine) ---
+
+/svct-memory — spherical-voxel-circular-token-memory
+64+64 cells · hash chain · export dump · query SQLite
+
+/svct-filter — svct-dump-filter
+GOSUB pathway prefilter · txt dump parse · filter UI
+
+/svct-gates — svct-spine-gates
+Shepherd harden · Tim Table snap · backbone integrity
+
+/taxonomy — svct-taxonomy
+modality + ext + tags · 100% classify on 9 types
+
+/sameness-reeval — svct-sameness-hierarchy
+header · stub · true_dupe · unique tiers
+
+--- B2 FOLD + OUTREACH ---
+
+/thread-fold — pattern-match-map-duplicate-archive
+match · map · duplicate · archive · skills snapshot
+
+/svct-fold — svct-utilitarian-fold
+benchmark → redact PHI → fold KB → one copy-paste post
+
+/svct-share — svct-xai-share
+redacted xAI share · NDA optional · no PHI in public repo
+
+--- B3 BRIDGES (cloud ≠ local) ---
+
+/supergrok-bridge — supergrok-local-bridge
+iPhone Grok cloud does NOT sync — USB → artifacts folder
+
+/canva-bridge — canva-local-bridge
+Canva → Photos → USB pull → photo_svct ingest
+
+/edge-vault — svct-edge-vault
+USB TB drive = local cloud substitute
+
+--- B4 DOMAIN ---
+
+/medical-lab-vault — LabCorp OCR → vault (PHI local only)
+/tims-table — 8-anchor trig · 8 decimals · 125 rows
+/imagine — Grok /imagine subscription before paid API
+
+--- B5 OFFICE + AGENT ---
+
+/xlsx · /docx · /pptx — spreadsheets Word slides
+/check-work — verify with subagent
+/create-skill — scaffold new skills
+/help — Grok CLI config MCP auth
+
+--- B6 BUNDLED (Cursor/Grok Build) ---
+
+/design · /implement · /execute-plan · /review · /pr-babysit
+
+================================================================================
+SECTION C — GROK.COM / SUPERGROK (paste as context or pin)
+================================================================================
+
+Title: Timothy H. Norman — Local Grok Skills (2026-06-28)
+
+Handles: @Timothy01775634 primary · @Tnorman01775634 Starship/SuperGrok phone
+
+Stack priority (benchmark-verified):
+1 LEGACY_56 ingest  2 TAXONOMY  3 storage_registry  4 FULL_PREFILTER
+Geometry = docs only. Medical PHI = local vault only.
+
+Invoke examples:
+· "Run /svct-filter prefilter on my memory dump"
+· "Do /thread-fold for today's session"
+· "Bridge SuperGrok screenshot via USB artifacts"
+· "Use /svct-share for redacted outreach — NDA optional"
+
+Public SVCT: https://github.com/GitTim2Day/svct-share-redacted
+Do No Harm First. Four pillars: content · context · data · time.time
+
+================================================================================
+SECTION D — SHORT X SKILLS LIST (single tweet if thread too long)
+================================================================================
+
+Grok skills I run locally:
+svct-memory · svct-filter · svct-fold · svct-share · taxonomy · sameness · spine-gates · edge-vault · supergrok-bridge · medical-lab-vault · tims-table · thread-fold · imagine · xlsx docx pptx
+
+@Timothy01775634 @Tnorman01775634
+github.com/GitTim2Day/svct-share-redacted
+
+================================================================================
+SECTION E — FULL MANIFEST (21 active skills, paths on laptop)
+================================================================================
+
+svct-utilitarian-fold      Benchmark → fold → post meta-loop
+spherical-voxel-circular-token-memory   SVCT query export dump
+svct-dump-filter           GOSUB pathway prefilter + HTML UI
+svct-sameness-hierarchy    Dedupe tiers + use_count reorder
+svct-taxonomy              Modality ext tag registry
+svct-spine-gates           Harden Shepherd Tim Table snap
+svct-edge-vault            USB portable vault push
+svct-xai-share             Redacted outreach NDA optional
+pattern-match-map-duplicate-archive   Thread fold workflow
+supergrok-local-bridge     Cloud Grok → PC USB pipe
+canva-local-bridge         Canva → Photos → USB
+medical-lab-vault          LabCorp → vault (PHI local)
+tims-ultimate-table        8-anchor trig 8dp
+imagine                    /imagine before API image_gen
+xlsx docx pptx             Office deliverables
+check-work create-skill help code-review   Agent utilities
+
+Bundled: design implement execute-plan review pr-babysit remove-wall-of-text
+
+Home: C:\Users\name\.grok\skills\
+Archive: skills_archive\2026-06-28\
+
+================================================================================
+YOUR STEPS
+================================================================================
+1. Post SECTION A on X (@Timothy01775634 or both handles)
+2. Reply with B1→B6 as thread OR post SECTION D alone
+3. Paste SECTION C into Grok.com chat or SuperGrok as pinned context
+4. Optional: add SKILLS link to GitHub repo bio
+
+================================================================================
