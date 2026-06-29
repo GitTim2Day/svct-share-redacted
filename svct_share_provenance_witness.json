@@ -1,6 +1,6 @@
 {
   "schema": "svct_share_provenance_witness_v1",
-  "recorded_at": "2026-06-28T19:00:00-04:00",
+  "recorded_at": "2026-06-28T23:00:00+00:00",
   "author": "Timothy H. Norman",
   "handles": {
     "primary": "@Timothy01775634",
@@ -15,7 +15,8 @@
     "Tim's Table + KBLD logic principles (non-PHI)",
     "BASELINE_VOXELS_TOKENS_BLOCKCHAIN.md",
     "Skills methodology (pattern-match-map-duplicate-archive)",
-    "Public X posts and outreach already attributed"
+    "Public X posts and outreach already attributed",
+    "GitHub repo svct-share-redacted (public, no NDA gate)"
   ],
   "not_shareable_without_redaction": [
     "LabCorp / medical vault rows (PHI)",
@@ -31,10 +32,17 @@
     "Paste the artifact, not the verdict",
     "No training on medical PHI without explicit separate consent"
   ],
+  "nda": {
+    "required": false,
+    "mutual_available": true,
+    "process": "DocuSign — either party may propose; author signs recipient envelope within 24h and reciprocates when used",
+    "use_when": "deeper confidential exchange or medical pipeline discussion — not for public redacted repo review"
+  },
   "suggested_share_bundle": {
     "docs": [
-      "Streamlined_Drives/KBLD_EV2_Lattice_Physics_TVH/BASELINE_VOXELS_TOKENS_BLOCKCHAIN.md",
-      ".grok/skills/spherical-voxel-circular-token-memory/references/DATA_ORIENTATION_SVCT.csv"
+      "docs/SVCT_Share_Bundle_xAI_REDACTED.txt",
+      "docs/SVCT_xAI_Outreach_POST_TODAY.txt",
+      "YOUR_CHECKLIST.md"
     ],
     "code_entrypoints": [
       "build_spherical_voxel_circular_token_memory.py",
@@ -43,18 +51,17 @@
       "svct_taxonomy.py",
       "local_agent_hub.json"
     ],
-    "demo_dump": "spherical_voxel_circular_token_memory_dump.json (category counts + format; redact medical category if needed)"
+    "demo_dump": "SVCT_Share_Bundle_xAI_REDACTED_slice.json (category counts; medical stub only)"
   },
-  "contact_path": "contact@x.ai with @Timothy01775634 attribution; or xAI partnership channels user selects",
-  "nda_preferred": true,
-  "nda_process": "mutual DocuSign — user signs recipient envelope within 24h and reciprocates with own envelope",
-  "outreach_post_today": "docs/SVCT_xAI_Outreach_POST_TODAY.txt",
+  "contact_path": "contact@x.ai with @Timothy01775634 attribution; or X post with repo link",
+  "github_repo": "https://github.com/GitTim2Day/svct-share-redacted",
+  "grok_share": "https://x.com/i/grok/share/6704fd1abf494517b601be548c60e3c9",
   "bundle_artifacts": {
-    "generated_at": "2026-06-28T19:30:00-04:00",
+    "generated_at": "2026-06-28T23:00:00+00:00",
     "copy_paste_txt": "docs/SVCT_Share_Bundle_xAI_REDACTED.txt",
     "redacted_slice_json": "SVCT_Share_Bundle_xAI_REDACTED_slice.json",
-    "medical_handling": "stripped/redacted; category stub retained for future NDA consideration"
+    "user_checklist": "YOUR_CHECKLIST.md",
+    "medical_handling": "stripped/redacted; category stub retained; PHI local only"
   },
-  "note": "Witness only — does not auto-publish. User retains rights; recipients must honor provenance chain.",
-  "github_repo": "https://github.com/GitTim2Day/svct-share-redacted"
+  "note": "Witness only — does not auto-publish. User retains rights; recipients must honor provenance chain."
 }

@@ -10,8 +10,8 @@ Generated:  2026-06-28
 Bundle:     C:\Users\name\Desktop\SVCT_Share_Bundle_xAI_REDACTED.txt
 Witness:    svct_share_provenance_witness.json (KBLD_EV2_Lattice_Physics_TVH)
 
-NDA:        Recipient may sign an NDA at any time — author prefers that path
-            before deeper technical exchange or any medical-category expansion.
+NDA:        Mutual DocuSign available anytime — NOT required to review this bundle.
+            Either party may request NDA for deeper or confidential exchange.
 
 Delivery:   User will review this bundle, then forward to contact@x.ai or post
             untagged on X. This file does not auto-publish.
@@ -28,16 +28,17 @@ I am sharing a redacted overview of SVCT (Spherical Voxel + Circular Token),
 a local-first memory spine I have built on Windows alongside Grok CLI / Cursor.
 This bundle contains architecture, methodology, registry patterns, and a
 category inventory from a live 269-entry dump. Medical PHI has been stripped;
-only pipeline stubs remain so we can discuss integration later under NDA.
+only pipeline stubs remain; medical pipeline discussable later if either party
+requests mutual NDA.
 
 SVCT is not a blockchain. It is an append-only SHA-256 hash-chain backbone with
 64-cell token_vector + 64-cell voxel_cells per memory row, four-pillar
 provenance (content · context · data · time.time), and BASIC-style logic
 principles (GOSUB, DO-UNTIL, IF-THEN-ELSE) wired through ingest and spine gates.
 
-I welcome NDA before any deeper exchange. I retain rights; recipients must
-honor provenance chains and Do No Harm First (no training on medical PHI without
-separate explicit consent).
+Mutual NDA via DocuSign is welcome but not required to review this redacted bundle.
+I retain rights; recipients must honor provenance chains and Do No Harm First (no
+training on medical PHI without separate explicit consent).
 
 Attribution: @Timothy01775634 · @Tnorman01775634
 
@@ -130,7 +131,7 @@ Handle bias (orientation):
   @Tnorman01775634 — FSD/SPACESHIP, Starship, SuperGrok iPhone bridge
 
 ================================================================================
-5. MEDICAL CATEGORY — REDACTED STUB (future consideration under NDA)
+5. MEDICAL CATEGORY — REDACTED STUB (future consideration; NDA optional)
 ================================================================================
 
 Category: Neuralink_Brain_Medical_CT_DICOM
@@ -180,9 +181,9 @@ Explicitly NOT in this bundle:
   · Any subscriber ID, specimen ID, confirmation number, phone, email
 
 Future consideration:
-  Under NDA, discuss medical_lab_extract schema, appointment/results guard,
-  and SVCT ingest with four pillars — PHI stays in local vault only unless
-  separate explicit medical consent.
+  Discuss medical_lab_extract schema, appointment/results guard, and SVCT ingest
+  with four pillars only under mutual NDA if requested — PHI stays in local vault
+  unless separate explicit medical consent.
 
 ================================================================================
 6. SAMPLE NON-PHI PROVENANCE BLOCK (KBLD_EV2_Lattice_Physics_TVH)
@@ -340,11 +341,12 @@ Companion redacted JSON slice (metadata only):
 11. CONTACT / FORWARDING
 ================================================================================
 
-Preferred:  NDA first, then technical deep-dive
+Repo:       https://github.com/GitTim2Day/svct-share-redacted (public, no NDA gate)
+Grok share: https://x.com/i/grok/share/6704fd1abf494517b601be548c60e3c9
 X:          @Timothy01775634 · @Tnorman01775634
-xAI path:   contact@x.ai (user forwards after review)
-Alt:        User may post untagged on X for public architecture discussion;
-            medical stubs remain closed until NDA.
+xAI path:   contact@x.ai (optional; link repo)
+NDA:        Mutual DocuSign optional — not required for public review
+Alt:        Post untagged on X; medical stubs stay redacted; PHI stays local
 
 ================================================================================
 END OF BUNDLE — REDACTED EDITION

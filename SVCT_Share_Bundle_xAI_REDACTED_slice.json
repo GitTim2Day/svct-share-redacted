@@ -119,6 +119,10 @@
     "Paste the artifact, not the verdict",
     "No training on medical PHI without separate consent"
   ],
-  "nda_preferred": true,
-  "github_repo": "https://github.com/GitTim2Day/svct-share-redacted"
+  "nda": {
+    "required": false,
+    "mutual_available": true
+  },
+  "github_repo": "https://github.com/GitTim2Day/svct-share-redacted",
+  "grok_share": "https://x.com/i/grok/share/6704fd1abf494517b601be548c60e3c9"
 }

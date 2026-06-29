@@ -7,12 +7,13 @@
 
 ## What this repo is
 
-Redacted public share of SVCT architecture — **no medical PHI**. Medical category exists as pipeline stubs only; deeper exchange under mutual DocuSign NDA.
+Redacted public share of SVCT architecture — **no medical PHI**. Medical category exists as pipeline stubs only. **No NDA required** to review this repo; mutual DocuSign NDA is available anytime if either party wants confidential exchange.
 
 | File | Purpose |
 |------|---------|
+| [`YOUR_CHECKLIST.md`](YOUR_CHECKLIST.md) | **Start here — what Tim does to complete outreach** |
 | [`docs/SVCT_Share_Bundle_xAI_REDACTED.txt`](docs/SVCT_Share_Bundle_xAI_REDACTED.txt) | Full architecture copy-paste bundle |
-| [`docs/SVCT_xAI_Outreach_POST_TODAY.txt`](docs/SVCT_xAI_Outreach_POST_TODAY.txt) | X post, email, DocuSign NDA skeleton |
+| [`docs/SVCT_xAI_Outreach_POST_TODAY.txt`](docs/SVCT_xAI_Outreach_POST_TODAY.txt) | X post, email, optional DocuSign NDA skeleton |
 | [`SVCT_Share_Bundle_xAI_REDACTED_slice.json`](SVCT_Share_Bundle_xAI_REDACTED_slice.json) | Category inventory + sample non-PHI entries |
 | [`svct_share_provenance_witness.json`](svct_share_provenance_witness.json) | Consent + recipient requirements |
 
@@ -31,14 +32,15 @@ Redacted public share of SVCT architecture — **no medical PHI**. Medical categ
 4. Paste the artifact, not the verdict
 5. No training on medical PHI without separate explicit consent
 
-## NDA
+## NDA (optional)
 
-Mutual DocuSign preferred — author signs recipient envelope within 24h and reciprocates.
+Mutual DocuSign is **welcome, not required** for this redacted public share. Either party may propose NDA for deeper or confidential exchange; author reciprocates within 24h when used.
 
-## Contact
+## Links
 
-- X: @Timothy01775634 (primary) · @Tnorman01775634
-- xAI: contact@x.ai (reference this repo)
+- **This repo:** https://github.com/GitTim2Day/svct-share-redacted
+- **Grok share (author):** https://x.com/i/grok/share/6704fd1abf494517b601be548c60e3c9
+- **xAI:** contact@x.ai (reference this repo)
 
 ## License
 
