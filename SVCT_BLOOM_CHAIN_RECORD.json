@@ -1,0 +1,16 @@
+{
+  "svct_id": "SVCT-BLOOM-CONSTANTS-v1",
+  "type": "spherical_voxel_circular_token",
+  "role": "backup_validator_not_substitute",
+  "created": "2026-09-14T00:00:00Z",
+  "pillars": ["content", "context", "data", "time", "validation", "provenance", "integrity", "custody"],
+  "constants": [
+    {"kind": "email", "value": "timnorman730@gmail.com", "note": "primary Gmail"},
+    {"kind": "email", "value": "timothy_h_norman@yahoo.com", "note": "primary Yahoo"},
+    {"kind": "github", "value": "GitTim2Day", "note": "primary GitHub handle"}
+  ],
+  "chain_hash_algo": "sha256",
+  "append_only": true,
+  "fail_closed": true,
+  "note": "Bloom chain lets new addresses chain in without rewrite. Primary logic still runs; this validates and corrects drift."
+}
