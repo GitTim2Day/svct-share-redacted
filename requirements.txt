@@ -1,0 +1,7 @@
+# No third-party Python packages earned from root *.py imports (2026-09-18 inventory).
+# Observed imports (stdlib only):
+#   svct_bloom_chain.py — hashlib, json, datetime
+#   svct_boot.py — json, hashlib, datetime
+#   svct_symbol_map.py — re
+# Go validation_module.go uses fmt, strings only (stdlib; not pip).
+# C++ stubs (svct_boot.cpp, svct_symbol_map.cpp) are not Python deps.
